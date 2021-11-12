@@ -34,8 +34,15 @@ li {
     padding: 5px 10px;
     font-size: 15px;
 }
+#profilepage {
+    display: flexbox;
+    position: absolute;
+}
 #blue {
     background-color: rgb(0, 160, 160);
+    width: 506px;
+    height: 120px;
+    margin: auto;
 }
 #location {
     display: inline;
@@ -44,7 +51,7 @@ li {
 #white {
     border: rgba(87, 87, 87, 0.397) 3px solid;
     margin: auto;
-    width: 1000px;
+    width: 500px;
     height: 260px;
 }
 #picture {
@@ -61,41 +68,55 @@ li {
     width: 15px;
     height: auto;
 }
-#blue {
-    width: 1006px;
-    height: 120px;
-    margin: auto;
-}
 body {
     display: flexbox;
     font-family: Arial, Helvetica, sans-serif;
 }
-.position {
+.PPpositionSub {
     position: relative;
     left: 20px;
     top: 30px;
 }
-#conreq {
+.conreq {
     background-color: slategray;
     border: 3px solid rgba(87, 87, 87, 0.397);
     width: 300px;
     height: 50px;
     margin: auto;
 }
-#conmaina {
+.conmaina {
     border: rgba(87, 87, 87, 0.397) 3px solid;
     margin: auto;
     width: 300px;
     height: 150px;
 }
-#conmainb {
+.conmainb {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    height: 100%
+    height: 75%;
 }
 .friends {
     text-align: left;
     position: relative;
     list-style-type: none;
+}
+#confoot {
+    border: rgba(87, 87, 87, 0.397) 3px solid;
+    margin: auto;
+    width: 300px;
+    height: auto;
+}
+.edumain {
+    border: rgba(87, 87, 87, 0.397) 3px solid;
+    margin: auto;
+    width: 600px;
+    height: 150px;
+}
+.edureq {
+    background-color: slategray;
+    border: 3px solid rgba(87, 87, 87, 0.397);
+    width: 600px;
+    height: 50px;
+    margin: auto;
 }
