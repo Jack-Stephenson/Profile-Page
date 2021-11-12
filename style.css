@@ -1,0 +1,101 @@
+.nav {
+    display: flex;
+    background-color: rgb(55, 63, 71);
+}
+.nav-title {
+    color: white;
+    margin: auto auto auto 10px;
+    font-family: 'Roboto', sans-serif;
+}
+.nav-links {
+    display: inline-flex;
+    text-align: right;
+    justify-content: space-around;
+    list-style-type: none;
+}
+li {
+    margin: auto 20px;
+}
+.navbarlink {
+    color: rgba(245, 245, 245, 0.753);
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+.active {
+    color: white;
+}
+.btn {
+    background-color: cyan;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: bold;
+    border: 3px solid black;
+    box-shadow: black 2px 2px 1px;
+    padding: 5px 10px;
+    font-size: 15px;
+}
+#blue {
+    background-color: rgb(0, 160, 160);
+}
+#location {
+    display: inline;
+    margin-left: 5px;
+}
+#white {
+    border: rgba(87, 87, 87, 0.397) 3px solid;
+    margin: auto;
+    width: 1000px;
+    height: 260px;
+}
+#picture {
+    width: 100px;
+    height: auto;
+    top: 70px;
+    left: 30px;
+}
+#map {
+    width: 15px;
+    height: auto;
+}
+#gear {
+    width: 15px;
+    height: auto;
+}
+#blue {
+    width: 1006px;
+    height: 120px;
+    margin: auto;
+}
+body {
+    display: flexbox;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.position {
+    position: relative;
+    left: 20px;
+    top: 30px;
+}
+#conreq {
+    background-color: slategray;
+    border: 3px solid rgba(87, 87, 87, 0.397);
+    width: 300px;
+    height: 50px;
+    margin: auto;
+}
+#conmaina {
+    border: rgba(87, 87, 87, 0.397) 3px solid;
+    margin: auto;
+    width: 300px;
+    height: 150px;
+}
+#conmainb {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%
+}
+.friends {
+    text-align: left;
+    position: relative;
+    list-style-type: none;
+}
