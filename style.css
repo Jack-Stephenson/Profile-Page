@@ -1,27 +1,38 @@
 .nav {
-    display: flex;
     background-color: rgb(55, 63, 71);
+    max-width: 100%;
+}
+#nav1 {
+    display: flex;
+    justify-content: center;
+    min-width: 50%;
+    margin: 0 auto;
 }
 .nav-title {
     color: white;
-    margin: auto auto auto 10px;
     font-family: 'Roboto', sans-serif;
 }
 .nav-links {
-    display: inline-flex;
-    text-align: right;
-    justify-content: space-around;
+    display: flex;
     list-style-type: none;
+    gap: 10px;
 }
 li {
-    margin: auto 20px;
+    margin: auto 0;
 }
 .navbarlink {
     color: rgba(245, 245, 245, 0.753);
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
 }
-.active {
+#navleft {
+    display: flex;
+}
+#last {
+    padding-right: 240px;
+}
+)
+#active {
     color: white;
 }
 .btn {
@@ -34,13 +45,8 @@ li {
     padding: 5px 10px;
     font-size: 15px;
 }
-#profilepage {
-    display: flexbox;
-    position: absolute;
-}
 #blue {
     background-color: rgb(0, 160, 160);
-    width: 506px;
     height: 120px;
     margin: auto;
 }
@@ -51,8 +57,8 @@ li {
 #white {
     border: rgba(87, 87, 87, 0.397) 3px solid;
     margin: auto;
-    width: 500px;
     height: 260px;
+    min-height: 260px;
 }
 #picture {
     width: 100px;
@@ -69,26 +75,29 @@ li {
     height: auto;
 }
 body {
-    display: flexbox;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
 }
 .PPpositionSub {
     position: relative;
     left: 20px;
     top: 30px;
 }
-.conreq {
+.contop {
     background-color: slategray;
     border: 3px solid rgba(87, 87, 87, 0.397);
-    width: 300px;
     height: 50px;
     margin: auto;
+    display: flex;
 }
 .conmaina {
     border: rgba(87, 87, 87, 0.397) 3px solid;
     margin: auto;
-    width: 300px;
-    height: 150px;
+    display: block;
+}
+#connectionb {
+    position: relative;
+    top: 40px;
 }
 .conmainb {
     display: flex;
@@ -98,25 +107,83 @@ body {
 }
 .friends {
     text-align: left;
-    position: relative;
     list-style-type: none;
 }
 #confoot {
-    border: rgba(87, 87, 87, 0.397) 3px solid;
+    border-top: rgba(87, 87, 87, 0.397) 3px solid;
     margin: auto;
-    width: 300px;
     height: auto;
+    padding: 20px;
+}
+#education {
+    position: relative;
+    top: 40px;
 }
 .edumain {
     border: rgba(87, 87, 87, 0.397) 3px solid;
     margin: auto;
-    width: 600px;
-    height: 150px;
+    height: 170px;
 }
-.edureq {
+.edumaintext {
+    padding-left: 15px;
+    padding-right: 25px;
+}
+#edutop {
     background-color: slategray;
     border: 3px solid rgba(87, 87, 87, 0.397);
-    width: 600px;
     height: 50px;
     margin: auto;
+}
+.edunav, .conreq {
+    margin-top: 10px;
+    padding-left: 15px;
+}
+.conreq {
+    padding-right: 10px;
+}
+#body2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+#leftside {
+    padding-right: 20px;
+}
+#rightside {
+    padding-left: 20px;
+}
+#todd, #adrien, #anne, #alayne, #arry {
+    display: flex;
+    position: relative;
+    padding: 10px;
+}
+.users {
+    width: 60px;
+    height: 60px;
+    padding-right: 5px;
+}
+.buttonsa {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 20px;
+    padding: 0 5px 0 5px;
+    top: 10px;
+}
+#phil {
+    display: flex;
+    position: relative;
+    padding: 0 10px 10px 10px;
+}
+.buttonsb {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 28px;
+    top: 10px;
+    padding: 0 5px 0 5px;
+}
+.name {
+    position: inherit;
+    top: 5px;
 }
